@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+.env/
+.env.*
+.python-version
+
+# Streamlit
+.streamlit/
+.streamlit/secrets.toml
+.streamlit/**/secrets.toml
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+
+# Coverage
+.coverage
+coverage.xml
+htmlcov/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.code-workspace
+
+# Builds/Dist
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Images & screenshots (keep if you need versioning)
+screenshots/
+
+# Databases (keep if you commit migrations only)
+*.db
+*.sqlite3
+
+# Node (if present)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
